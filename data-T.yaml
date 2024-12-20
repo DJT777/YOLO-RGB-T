@@ -1,0 +1,27 @@
+path: /home/dylan/projects/YOLO-RGB-T/notebooks/FLIR/T
+train: images/train  # Relative to 'path'
+val: images/val      # Relative to 'path'
+test: images/test    # Relative to 'path'
+
+labels:
+  train: labels/train  # Relative to 'path'
+  val: labels/val      # Relative to 'path'
+  test: labels/test    # Relative to 'path'
+
+# Classes
+names:
+  0: Person
+  1: Bike
+  2: Car
+  3: Motorcycle
+  4: Bus
+  5: Train
+  6: Truck
+  7: Traffic light
+  8: Fire Hydrant
+  9: Street Sign
+  10: Dog
+  11: Skateboard
+  12: Stroller
+  13: Scooter
+  14: Other Vehicle
